@@ -20,3 +20,5 @@ pd4 = pd.read_csv('foreign_visitors/foreign_visitors_2019.csv')
 finalf = pd.concat([pd1, pd2, pd3, pd4], ignore_index=True)
 finalf.to_csv('foreign_merged.csv', index = False)
 print(finalf)
+
+print("hello")
